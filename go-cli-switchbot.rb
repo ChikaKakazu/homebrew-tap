@@ -5,20 +5,20 @@
 class GoCliSwitchbot < Formula
   desc ""
   homepage ""
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/ChikaKakazu/go-cli-switchbot/releases/download/v0.2.0/go-cli-switchbot_Darwin_x86_64.tar.gz"
-      sha256 "14e6d92b9773de9cf096aded1ce6604070844660e2dc2e779ae8cc4e7bfebe89"
+      url "https://github.com/ChikaKakazu/go-cli-switchbot/releases/download/v0.3.0/go-cli-switchbot_Darwin_x86_64.tar.gz"
+      sha256 "db97405a0a8de20d0dae4e881dfe23fe7244c578b39d8f9f70ade135de51afcf"
 
       def install
         bin.install "go-cli-switchbot"
       end
     end
     on_arm do
-      url "https://github.com/ChikaKakazu/go-cli-switchbot/releases/download/v0.2.0/go-cli-switchbot_Darwin_arm64.tar.gz"
-      sha256 "cd93d1bcf6ba93e2bcffd94551acf5444d6844c2bc194afe2df7bf313eb7e92c"
+      url "https://github.com/ChikaKakazu/go-cli-switchbot/releases/download/v0.3.0/go-cli-switchbot_Darwin_arm64.tar.gz"
+      sha256 "ea634c75a01337c9efbe361413a1271f7492a33f9dc28fa258d599495b1f82e4"
 
       def install
         bin.install "go-cli-switchbot"
@@ -29,8 +29,8 @@ class GoCliSwitchbot < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ChikaKakazu/go-cli-switchbot/releases/download/v0.2.0/go-cli-switchbot_Linux_x86_64.tar.gz"
-        sha256 "e16a28d31ec43cb393a84d1a1b3d9c846fd2d0c03c62b6f06381ae44bcad7f87"
+        url "https://github.com/ChikaKakazu/go-cli-switchbot/releases/download/v0.3.0/go-cli-switchbot_Linux_x86_64.tar.gz"
+        sha256 "719c39e130362155efec8b0afb4b1908207f7324a7ae53e5763407a8db9c0853"
 
         def install
           bin.install "go-cli-switchbot"
@@ -39,8 +39,8 @@ class GoCliSwitchbot < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ChikaKakazu/go-cli-switchbot/releases/download/v0.2.0/go-cli-switchbot_Linux_arm64.tar.gz"
-        sha256 "cd940ebd46cf81b552772c79205e12c44ccfac07d2313b2c74566b285eadc226"
+        url "https://github.com/ChikaKakazu/go-cli-switchbot/releases/download/v0.3.0/go-cli-switchbot_Linux_arm64.tar.gz"
+        sha256 "87c77cc7cfbf6f596e799fb7451d1535ecfe54eefcd17a05adffa170ed0beee8"
 
         def install
           bin.install "go-cli-switchbot"
